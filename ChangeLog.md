@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 2.0.3-rc
+### 2.1.0-rc
 
     Release date: 
 
-    - 
+    - Export 'bootstrap' object, thus bumping minor candidate version number
 
 ### 2.0.2
 

@@ -12,11 +12,27 @@ This Meteor package is installable with the usual command:
 
 ```sh
     meteor add pwix:ui-bootstrap5
+    meteor npm install @popperjs/core bootstrap --save
 ```
 
 ## Usage
 
 Nothing to do here, but do not forget to install the required NPM packages (see [below](#npm-peer-dependencies)).
+
+Starting with v2.1, if you would need the `bootstrap` global object, you can later:
+
+```js
+    import { bootstrap } from 'meteor/pwix:ui-bootstrap5';
+```
+
+and so, maybe, if for example you would wish use Bootstrap tooltips:
+
+```js
+    const tooltipsList = [].slice.call( document.querySelectorAll( '[data-bs-toggle="tooltip"]' ));
+    tooltipsList.map( function( elt ){
+        return new bootstrap.Tooltip( elt );
+    });
+```
 
 ## Provides
 
@@ -33,13 +49,15 @@ Starting with v 0.3.0, and in accordance with advices from [the Meteor Guide](ht
 Instead we check npm versions of installed packages at runtime, on server startup, in development environment.
 
 Dependencies as of v 2.0.0:
-```
+
+```js
     '@popperjs/core': '^2.11.0',
     'bootstrap': '^5.2.0',
 ```
 
 Each of these dependencies should be installed at application level:
-```
+
+```sh
     meteor npm install <package> --save
 ```
 
