@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 2.1.0-rc
+### 2.1.0
 
-    Release date: 
+    Release date: 2026- 4- 2
 
     - Export 'bootstrap' object, thus bumping minor candidate version number
 
@@ -35,4 +35,4 @@ Release date: 2024- 6- 9
 
 ---
 P. Wieser
-- Last updated on 2024, Jun. 13th
+- Last updated on 2026, Apr. 2nd
