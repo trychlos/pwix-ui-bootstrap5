@@ -1,6 +1,6 @@
 Package.describe({
     name: 'pwix:ui-bootstrap5',
-    version: '2.2.0-rc.0',
+    version: '2.2.0',
     summary: 'A Meteor package which just includes Bootstrap 5 files and stylesheets',
     git: 'https://github.com/trychlos/pwix-ui-bootstrap5.git',
     documentation: 'README.md'

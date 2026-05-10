@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 2.2.0-rc.0
+### 2.2.0
 
-    Release date: 
+    Release date: 2026- 5-10
 
     - Rename 'bootstrap' export to 'Bootstrap' to stay consistent with other packages plus fix its content, thus bumping minor candidate version number
     - Export Popper namespace
@@ -42,4 +42,4 @@ Release date: 2024- 6- 9
 
 ---
 P. Wieser
-- Last updated on 2026, Apr. 2nd
+- Last updated on 2026, May. 10th
