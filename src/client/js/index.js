@@ -7,4 +7,8 @@ import '../../common/js/index.js';
 import '@popperjs/core/dist/cjs/popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export { bootstrap } from  'bootstrap/dist/js/bootstrap.min.js';
+import * as BootstrapNS from  'bootstrap/dist/js/bootstrap.min.js';
+export const Bootstrap = BootstrapNS.default || BootstrapNS;
+
+// assert our presence on the console
+//console.debug( 'pwix:bootstrap5 evaluated' );
