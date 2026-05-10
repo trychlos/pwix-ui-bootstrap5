@@ -7,6 +7,7 @@
     Release date: 
 
     - Rename 'bootstrap' export to 'Bootstrap' to stay consistent with other packages plus fix its content, thus bumping minor candidate version number
+    - Export Popper namespace
 
 ### 2.1.0
 
